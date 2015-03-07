@@ -1,5 +1,5 @@
-class PagesController
+class PagesController < ApplicationController
   def index
-    # HardWorker.perform_async('bob', 5)
+    @test = 'hello'
   end
 end

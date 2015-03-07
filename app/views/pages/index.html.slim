@@ -1,0 +1,10 @@
+= render layout: 'profile' do
+  .favorites
+    table.profile-table.pagination-container
+      tr.profile-table__header
+        th.profile-table__prev = t :tv_object
+        th.profile-table__title
+        th.profile-table__air-time = t :time_to_air
+        th.profile-table__delete = t :delete
+    = show_more @favorites do
+      h3.pagination-container__empty-resources Empty
