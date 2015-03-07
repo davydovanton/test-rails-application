@@ -5,6 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.9'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
+gem 'sqlite3'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
@@ -25,7 +26,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 gem 'sidekiq'
-gem 'sidekiq-history', github: 'davydovanton/sidekiq-history'
+gem 'sidekiq-history', path: './../../job/opensource/sidekiq-history'
 gem 'sidetiq'
 gem 'sinatra', require: false
 gem 'better_errors'
