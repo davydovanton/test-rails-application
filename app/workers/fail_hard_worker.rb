@@ -3,8 +3,7 @@ class FailHardWorker
   include Sidetiq::Schedulable
   sidekiq_options unique: true
 
-  # recurrence { hourly }
-  recurrence { minutely }
+  recurrence { hourly }
 
   def perform(name, count)
     raise StandardError.new('failed')

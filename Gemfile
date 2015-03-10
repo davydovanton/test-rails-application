@@ -5,13 +5,14 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.9'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
-gem 'sqlite3'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
+
+gem 'pg'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -26,7 +27,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 gem 'sidekiq'
-gem 'sidekiq-history', path: './../../job/opensource/sidekiq-history'
+gem 'sidekiq-history', github: 'davydovanton/sidekiq-history'
 gem 'sidetiq'
 gem 'sinatra', require: false
 gem 'better_errors'
@@ -35,7 +36,7 @@ gem 'better_errors'
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

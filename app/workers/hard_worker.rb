@@ -3,8 +3,7 @@ class HardWorker
   include Sidetiq::Schedulable
   sidekiq_options unique: true
 
-  # recurrence { hourly(2) }
-  recurrence { minutely }
+  recurrence { hourly(2) }
 
   def perform(name, count)
     'Doing hard work'
