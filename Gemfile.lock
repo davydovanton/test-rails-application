@@ -1,4 +1,14 @@
 PATH
+  remote: ./../../gems/sidekiq
+  specs:
+    sidekiq (3.3.3)
+      celluloid (>= 0.16.0)
+      connection_pool (>= 2.1.1)
+      json
+      redis (>= 3.0.6)
+      redis-namespace (>= 1.3.1)
+
+PATH
   remote: ./../../job/opensource/sidekiq-history
   specs:
     sidekiq-history (0.1.0)
@@ -103,12 +113,6 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
-    sidekiq (3.3.2)
-      celluloid (>= 0.16.0)
-      connection_pool (>= 2.1.1)
-      json
-      redis (>= 3.0.6)
-      redis-namespace (>= 1.3.1)
     sidetiq (0.6.3)
       celluloid (>= 0.14.1)
       ice_cube (= 0.11.1)
@@ -152,7 +156,7 @@ DEPENDENCIES
   rails (= 4.1.9)
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
-  sidekiq
+  sidekiq!
   sidekiq-history!
   sidetiq
   sinatra
