@@ -6,6 +6,7 @@ class HardWorker
   recurrence { hourly(2) }
 
   def perform(name, count)
+    sleep Random.rand(10)
     'Doing hard work'
   end
 end
