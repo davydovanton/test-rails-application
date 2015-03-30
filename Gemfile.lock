@@ -7,8 +7,8 @@ GIT
 
 GIT
   remote: git://github.com/davydovanton/sidekiq.git
-  revision: c0800916c6e1296a476ca9814915f9ed612c179d
-  branch: navbar-collapse
+  revision: b962a02f267ac5e02ef0a4c2b4fff7ab13746492
+  branch: fix-tablet-ui
   specs:
     sidekiq (3.3.4)
       celluloid (>= 0.16.0)
