@@ -1,7 +1,7 @@
 class FailHardWorker
   include Sidekiq::Worker
   include Sidetiq::Schedulable
-  sidekiq_options unique: true
+  sidekiq_options retry: false
 
   # recurrence { hourly }
   recurrence { minutely }

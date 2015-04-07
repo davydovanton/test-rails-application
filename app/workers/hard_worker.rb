@@ -1,7 +1,7 @@
 class HardWorker
   include Sidekiq::Worker
   include Sidetiq::Schedulable
-  sidekiq_options unique: true
+  sidekiq_options unique: :foo
 
   # recurrence { hourly(2) }
   recurrence { minutely }
