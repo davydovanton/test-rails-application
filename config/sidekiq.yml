@@ -1,4 +1,4 @@
-:concurrency: 0
-:queues:
-  - ['foo', 1]
-  - ['bar', 1]
+development:
+  adapter: mysql2
+  database: foo_production
+  pool: 25

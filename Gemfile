@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.9'
+gem 'rails'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 gem 'sqlite3'
@@ -31,6 +31,8 @@ gem 'sidetiq'
 gem 'sinatra', require: false
 gem 'better_errors'
 gem 'memory_profiler', path: './../../gems/memory_profiler'
+
+gem 'video_service', path: './../../gems/web_video_preview'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

@@ -1,0 +1,45 @@
+Total allocated 0
+Total retained 0
+
+allocated memory by gem
+-----------------------------------
+
+allocated memory by file
+-----------------------------------
+
+allocated memory by location
+-----------------------------------
+
+allocated objects by gem
+-----------------------------------
+
+allocated objects by file
+-----------------------------------
+
+allocated objects by location
+-----------------------------------
+
+retained memory by gem
+-----------------------------------
+
+retained memory by file
+-----------------------------------
+
+retained memory by location
+-----------------------------------
+
+retained objects by gem
+-----------------------------------
+
+retained objects by file
+-----------------------------------
+
+retained objects by location
+-----------------------------------
+
+
+Allocated String Report
+-----------------------------------
+
+Retained String Report
+-----------------------------------
