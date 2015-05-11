@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/davydovanton/sidekiq-history.git
-  revision: 34f2fd7ff6ff7e53dc231c5407965e2c821514fc
+  revision: d99b3aebf9c560ded15120ed03799460f884a95e
   specs:
     sidekiq-history (0.2.0)
       sidekiq (>= 3.0.0)
