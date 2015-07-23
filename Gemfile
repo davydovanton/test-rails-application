@@ -27,14 +27,14 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 # gem 'spring',        group: :development
 
-gem 'sidekiq', path: './../../gems/sidekiq'
+gem 'sidekiq', path: './../../repositories/sidekiq'
 gem 'sidekiq-history', path: './../../job/opensource/sidekiq-history'
 gem 'sidetiq'
 gem 'sinatra', require: false
 gem 'better_errors'
-gem 'memory_profiler', path: './../../gems/memory_profiler'
+gem 'memory_profiler', path: './../../repositories/memory_profiler'
 
-gem 'video_service', path: './../../gems/web_video_preview'
+gem 'video_service', path: './../../repositories/web_video_preview'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
