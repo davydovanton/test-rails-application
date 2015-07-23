@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/davydovanton/sidekiq-history.git
-  revision: dbdb5f9905c3f3209eef50ffe0f07791744709bb
+  revision: a13fa2f44948d39c6180fb308ecc644428d328d7
   branch: moscow-ruby-meetup
   specs:
     sidekiq-history (0.2.0)
