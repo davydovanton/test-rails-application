@@ -26,7 +26,7 @@ gem "resque", "~> 2.0.0.pre.1", github: "resque/resque"
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 
-gem 'sidekiq', github: 'davydovanton/sidekiq', branch: 'mobile-tables'
+gem 'sidekiq', github: 'mperham/sidekiq'
 gem 'sidekiq-history', github: 'davydovanton/sidekiq-history'
 gem 'sidetiq'
 gem 'sinatra', require: false
