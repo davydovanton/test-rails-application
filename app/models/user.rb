@@ -5,7 +5,7 @@ class User < ActiveRecord::Base
   end
 
   def full_name
-    ActiveSupport::Deprecation.deprecation_warning(__method__)
-    name
+    # ActiveSupport::Deprecation.deprecation_warning(__method__)
+    # name
   end
 end

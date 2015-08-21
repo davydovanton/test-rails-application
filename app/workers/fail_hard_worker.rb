@@ -1,6 +1,6 @@
 class FailHardWorker
   include Sidekiq::Worker
-  include Sidetiq::Schedulable
+  # include Sidetiq::Schedulable
 
   # recurrence { hourly }
   # recurrence { minutely }

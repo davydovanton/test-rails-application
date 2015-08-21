@@ -1,6 +1,5 @@
 class HardWorker
   include Sidekiq::Worker
-  include Sidetiq::Schedulable
 
   # recurrence { hourly(2) }
   # recurrence { minutely }
