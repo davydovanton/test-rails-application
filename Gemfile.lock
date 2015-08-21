@@ -1,9 +1,8 @@
 GIT
-  remote: git://github.com/davydovanton/sidekiq-history.git
-  revision: a13fa2f44948d39c6180fb308ecc644428d328d7
-  branch: moscow-ruby-meetup
+  remote: git://github.com/davydovanton/sidekiq-statistic.git
+  revision: ca4e61b0a55265c9f7285dad06d1d47e2d02020a
   specs:
-    sidekiq-history (0.2.0)
+    sidekiq-statistic (1.0.0)
       sidekiq (~> 3.3, >= 3.3.4)
 
 GIT
@@ -176,7 +175,7 @@ DEPENDENCIES
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
   sidekiq!
-  sidekiq-history!
+  sidekiq-statistic!
   sidetiq
   sinatra
   spring

@@ -8,6 +8,6 @@ Sidekiq.configure_server do |config|
   config.redis = { size: 2, url: ENV["REDISTOGO_URL"] }
 end
 
-Sidekiq::History.configure do |config|
+Sidekiq::Statistic.configure do |config|
   config.log_file = 'config/sidekiq.log'
 end

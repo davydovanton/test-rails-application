@@ -27,7 +27,7 @@ gem "resque", "~> 2.0.0.pre.1", github: "resque/resque"
 gem 'spring',        group: :development
 
 gem 'sidekiq', github: 'mperham/sidekiq'
-gem 'sidekiq-history', github: 'davydovanton/sidekiq-history', branch: 'moscow-ruby-meetup'
+gem 'sidekiq-statistic', github: 'davydovanton/sidekiq-statistic'
 gem 'sidetiq'
 gem 'sinatra', require: false
 gem 'better_errors'
