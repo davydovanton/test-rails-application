@@ -1,11 +1,4 @@
 GIT
-  remote: git://github.com/davydovanton/sidekiq-statistic.git
-  revision: ca4e61b0a55265c9f7285dad06d1d47e2d02020a
-  specs:
-    sidekiq-statistic (1.0.0)
-      sidekiq (~> 3.3, >= 3.3.4)
-
-GIT
   remote: git://github.com/mperham/sidekiq.git
   revision: 923e4fc31c499bf26a0cc204019da44610f30514
   specs:
@@ -127,6 +120,8 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
+    sidekiq-statistic (1.1.0)
+      sidekiq (~> 3.3, >= 3.3.4)
     sidetiq (0.6.3)
       celluloid (>= 0.14.1)
       ice_cube (= 0.11.1)
@@ -175,7 +170,7 @@ DEPENDENCIES
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
   sidekiq!
-  sidekiq-statistic!
+  sidekiq-statistic
   sidetiq
   sinatra
   spring
