@@ -2,8 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', path: './../../job/opensource/rails'
-gem 'arel', github: 'rails/arel', branch: 'master'
+gem 'rails'
 gem 'thin'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0.3'
